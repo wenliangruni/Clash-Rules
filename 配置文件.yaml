@@ -1,7 +1,7 @@
 ---
 proxy-providers:
   小火龙:
-    url: https://iop.l8inn.com/s/ad42e73f5f2c641fd8db517c0be789cc
+    url: 
     type: http
     interval: 86400
     health-check:
