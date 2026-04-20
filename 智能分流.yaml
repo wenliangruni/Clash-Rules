@@ -1,8 +1,8 @@
 ---
 proxy-providers:
   小火龙:
-    url: https://cvb.l8inn.com/s/ad42e73f5f2c641fd8db517c0be789cc
-    type: http
+    url: https:
+    输入: http
     interval: 86400
     filter: "^(?!.*(特殊时期建议经常更新订阅)).*$"
     health-check:
@@ -13,9 +13,9 @@ proxy-providers:
     path: "./proxy_provider/小火龙"
 proxies:
 - name: 直连
-  type: direct
+  输入: direct
 - name: 拒绝
-  type: reject
+  输入: reject
 port: 7890
 socks-port: 7891
 redir-port: 7892
